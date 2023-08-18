@@ -1,0 +1,14 @@
+{
+  "name": "be-multi-thread",
+  "version": "1.0.0",
+  "description": "Multi Threaded Node App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev-start": "ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node": "^20.5.0"
+  }
+}
